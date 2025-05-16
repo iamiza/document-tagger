@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pdfplumber
+python-docx
+keybert
+sentence-transformers
+nltk
+pydantic
+pytest
+python-multipart
