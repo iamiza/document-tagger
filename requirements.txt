@@ -8,3 +8,4 @@ nltk
 pydantic-settings
 pytest
 python-multipart
+httpx
