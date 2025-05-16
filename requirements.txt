@@ -5,6 +5,6 @@ python-docx
 keybert
 sentence-transformers
 nltk
-pydantic
+pydantic-settings
 pytest
 python-multipart

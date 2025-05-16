@@ -4,6 +4,10 @@ from app.tagger import extract_tags
 
 router = APIRouter()
 
+@router.get("/")
+def read_root():
+    return {"message": "Welcome to the Document Tagger API. Visit /docs to test."}
+
 @router.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
     content_type = file.content_type
